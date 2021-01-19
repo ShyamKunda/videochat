@@ -2,7 +2,7 @@ const socket = io('/')
 const videoGrid = document.getElementById('video-grid')
 const myPeer = new Peer(undefined, {
     secure: true,
-    host: 'https://fast-bayou-80416.herokuapp.com/',
+    host: 'fast-bayou-80416.herokuapp.com/',
     port: '443'
 })
 
