@@ -30,7 +30,7 @@ navigator.mediaDevices.getUserMedia({
         setTimeout(() => {
             // user joined
             connectToNewUser(userId, stream)
-        }, 3000)
+        }, 15000)
     })
 })
 
